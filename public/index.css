@@ -1,0 +1,68 @@
+html,
+body {
+  background-color: #ccebff;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.mainWrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formCard {
+  margin: auto;
+  height: 500px;
+  width: 450px;
+  background-color: white;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.mainInputBox {
+  width: 90%;
+  /* height: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: 1px solid lightgray; */
+  /* border-style: none; */
+}
+
+.box {
+  height: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.inputFormsLong {
+  text-align: center;
+  padding-top: 33%;
+}
+
+label {
+  float: left;
+  /* margin-bottom: 10px; */
+  margin-left: 4%;
+}
+
+.dropDownBoxWrapper {
+  margin-left: 4%;
+}
+.dropDownBox {
+  /* background-image: url("./assets/dropdownarrow.png"); */
+  /* -webkit-appearance: none; */
+  width: 20%;
+}
+
+.month {
+  margin-right: 5px;
+}
+
+i {
+  float: right;
+}

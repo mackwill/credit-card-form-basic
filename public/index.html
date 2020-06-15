@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- Project reference https://morioh.com/p/32f43594dd02 -->
+    <meta charset="utf-8" />
+    <title>Credit Card Form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.js"
+      integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/761f8ea60c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../src/index.js"></script>
+  </head>
+  <body>
+    <div class="mainWrapper">
+      <div class="formCard">
+        <div class="inputFormsLong">
+          <label for="cardNumberInput">Credit Card Number: </label><br />
+          <input
+            id="cardNumberInput"
+            type="text"
+            class="mainInputBox box"
+          /><br />
+          <label for="cardNameInput">Name on Card: </label><br />
+          <input
+            id="cardNameInput"
+            type="text"
+            class="mainInputBox box"
+          /><br />
+        </div>
+        <div class="inputFormsShort">
+          <label for="expirationDate">Expiration Date</label><br />
+          <div class="dropDownBoxWrapper">
+            <button class="dropDownBox box month">
+              Month <i class="fas fa-chevron-down"></i>
+            </button>
+            <button class="dropDownBox box year">
+              Year<i class="fas fa-chevron-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
